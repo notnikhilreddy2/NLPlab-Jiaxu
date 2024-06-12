@@ -1,7 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
-
+.header-img {
+    max-height: 250px;
+}
 
 .view a {
 color: #990000; /* Default color for the link */
@@ -11,6 +13,10 @@ color: #990000; /* Default color for the link */
 .view a.active {
 color: #530101;
 font-weight: bold;
+}
+
+.footer a {
+    color:#990000;
 }
 
 
@@ -39,8 +45,6 @@ font-weight: bold;
     color: #555;
 }
 
-
-
 /* New styles for tables */
 .table {
     width: 100%;
@@ -64,10 +68,7 @@ font-weight: bold;
 .table td {
     padding: 12px 15px;
 }
-.table td img {
-    width: auto;
-    /* height: auto; */
-}
+
 .table td a {
     color: #990000
 }
@@ -176,10 +177,10 @@ font-weight: bold;
 
 /* New styles for students.html */
 .student-photo {
-    width: 80px;
-    height: 80px;
+    /* width: 80px;
+    height: 80px; */
     border-radius: 50%;
-    object-fit: cover;
+    object-fit:cover;
 }
 
 .current-courses ul, .past-courses ul {
