@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #ffffff;
   padding:50px;
   font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color:#595959;
@@ -15,18 +15,23 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
+p {
+  color:#727272
+}
+
 h1, h2, h3 {
   line-height:1.1;
 }
 
 h1 {
   font-size:28px;
-  font-weight: 500;
+  font-weight: bold;
+  color: #990000;
 }
 
 h2 {
   color:#393939;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 h3, h4, h5, h6 {

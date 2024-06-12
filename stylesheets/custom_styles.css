@@ -1,0 +1,215 @@
+.view a {
+color: #990000; /* Default color for the link */
+}
+
+.view a:hover,
+.view a.active {
+color: #530101;
+font-weight: bold;
+}
+
+
+/* Publications list styling */
+.publications-list {
+    list-style: none;
+    padding: 0;
+}
+
+.publications-list li {
+    margin-bottom: 20px;
+}
+
+.publications-list li a {
+    color: #990000;
+    /* font-weight: bold; */
+    text-decoration: none;
+}
+
+.publications-list li a:hover {
+    text-decoration: underline;
+}
+
+.publications-list p {
+    margin: 5px 0;
+    color: #555;
+}
+
+
+
+/* New styles for tables */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.table thead tr {
+    background-color: #990000;
+    color: #ffffff;
+    text-align: left;
+}
+
+.table th {
+    padding: 12px 15px;
+    color: #ffffff
+}
+.table td {
+    padding: 12px 15px;
+}
+.table td a {
+    color: #990000
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid #990000;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+    /* cursor: pointer; */
+}
+
+/* Funding Table Styling */
+.funding-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.funding-table th, .funding-table td {
+    padding: 12px 15px;
+}
+
+.funding-table thead th {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.funding-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.funding-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.funding-table tbody tr:last-of-type {
+    border-bottom: 2px solid #333;
+}
+
+.funding-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Courses list styling */
+.courses-list {
+    list-style: none;
+    padding: 0;
+}
+
+.courses-list li {
+    margin-bottom: 20px;
+}
+
+.courses-list li a {
+    color: #990000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.courses-list li a:hover {
+    text-decoration: underline;
+}
+
+.courses-list p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* New styles for patents.html */
+.patent-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.patent-item p {
+    margin: 5px 0;
+}
+
+.patent-item button {
+    background-color: #990000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.patent-item button:hover {
+    background-color: #990000;
+}
+
+/* New styles for students.html */
+.student-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.current-courses ul, .past-courses ul {
+    list-style: none;
+    padding: 0;
+}
+
+.current-courses li, .past-courses li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.current-courses li a, .past-courses li a {
+    color: #990000;
+    text-decoration: none;
+}
+
+.current-courses li p, .past-courses li p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+.current-courses li:hover, .past-courses li:hover {
+    background-color: #f0f0f0;
+}
+
+.breadcrumb {
+    margin-bottom: 20px;
+}
+
+.breadcrumb a {
+    color: #990000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
