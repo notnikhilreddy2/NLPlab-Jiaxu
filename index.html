@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>NLP Lab-Jia Xu</title>
+    <title>Jia Xu: NLP Lab</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/custom_styles.css">
@@ -22,7 +22,7 @@
               { id: "students", url: "pages/students.html" },
               { id: "alumni", url: "pages/alumni.html" },
           ];
-
+      
           pages.forEach(page => {
               fetch(page.url)
                   .then(response => {
@@ -36,8 +36,22 @@
                   })
                   .catch(error => console.error('Error loading page:', error));
           });
+      
+          // Add click event listeners to navigation links
+          document.querySelectorAll('.view a').forEach(link => {
+              link.addEventListener('click', function(e) {
+                  e.preventDefault();  // Prevent default anchor behavior
+                  const targetId = this.getAttribute('href').slice(1); // Get the ID from href attribute
+                  const targetElement = document.getElementById(targetId);
+                  
+                  if (targetElement) {
+                      targetElement.scrollIntoView({ behavior: 'smooth' });
+                  }
+              });
+          });
       });
-  </script>
+      </script>
+      
 </head>
 
 <body>
