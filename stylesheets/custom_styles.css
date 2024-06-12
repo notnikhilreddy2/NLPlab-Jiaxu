@@ -64,6 +64,10 @@ font-weight: bold;
 .table td {
     padding: 12px 15px;
 }
+.table td img {
+    width: auto;
+    /* height: auto; */
+}
 .table td a {
     color: #990000
 }

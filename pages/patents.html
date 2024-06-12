@@ -13,9 +13,24 @@
         <div class="patent-item">
             <p>Unsupervised Chinese Word Segmentation for Statistical Machine Translation</p>
             <p>Jianfeng Gao, Kristina Nikolova Toutanova, and Jia Xu</p>
-            <button onclick="showPopup()">Insight</button>
+            <button onclick="toggleInsight(this)">Insight</button>
+            <p class="insight-content" style="display: none;">
+                Application No. 12/163.119, (ASM 8310) MS 323635.01, Redmond, Washington, June 2008
+            </p>
         </div>
+
+        <script>
+            function toggleInsight(button) {
+                var insight = button.nextElementSibling;
+                if (insight.style.display === "none") {
+                    insight.style.display = "block";
+                } else {
+                    insight.style.display = "none";
+                }
+            }
+        </script>
+        
     </main>
-    <script src="../javascripts/popup.js"></script>
+    <!-- <script src="javascripts/toggleInsights.js"></script> -->
 </body>
 </html>
