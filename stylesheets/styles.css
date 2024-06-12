@@ -39,6 +39,11 @@ h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 a {
   color:#39c;
   text-decoration:none;
@@ -62,6 +67,11 @@ a:hover small {
 .wrapper {
   width:860px;
   margin:0 auto;
+}
+
+.wrapper p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 blockquote {
